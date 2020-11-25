@@ -1,0 +1,28 @@
+body,p {margin: 0;}
+ol,ul,h1,h2,h3,h4,h5,h6 {margin: 0;padding: 0;}
+li {list-style: none;}
+img {vertical-align: middle;border: none;}
+a {text-decoration: none;}
+input,button {margin: 0;padding: 0;outline: none;}
+
+.fullpage {position: fixed;left: 0;right: 0;top: 0;bottom: 0;}
+.center {margin-left: auto;margin-right: auto;display: block;}
+.text-center {text-align: center;}
+.page_center {position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);}
+
+.title_theme_default {color: #333;margin: 1em 0px;}
+.flex {display: flex;}
+.flex.flex-between {justify-content: space-between;}
+.guess-ipt {width: 100%;text-align: center;font-size: 22px;border: none;height: 60px;}
+.guess-cell {border: 1px solid #333;margin-left: -1px;}
+.btn {display: inline-block;border-radius: 4px;padding: 8px 20px;background: red;font-size: 16px;color: #FFF;}
+.btn-warning {background: #F56C6C;}
+.btn-success {background: #67C23A;}
+.num1 {color: #F56C6C}
+.num2 {color: #67C23A}
+#resultList li {margin-bottom: 12px;}
+
+.shadow {background: rgba(0,0,0,.8);}
+.shadow > div {justify-content: center;align-items:  center}
+
+.success {font-size: 20px; color: #FFF; }
