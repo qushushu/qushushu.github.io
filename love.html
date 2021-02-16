@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>北笙我爱你</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<style>
+		body {margin: 0;background: url(./bg.jpg);font-family: "黑体";color: #443F35}
+		h1,h2 {margin: 0;font-weight: normal;}
+		h1 {text-align: center;}
+		.box {position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);width: 100%;}
+		h2 {text-align: right;margin-right: 20px;margin-top: 20px;}
+		.love {animation: move 1s}
+		.name {animation: move2 1s}
+		h2 {animation: move3 3s}
+		@-webkit-keyframes move {
+			0% {
+				transform: translateY(-900px);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+
+		@keyframes move {
+			0% {
+				transform: translateY(-900px);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+
+		@-webkit-keyframes move3 {
+			0% {
+				transform: translateX(-900px);
+			}
+			100% {
+				transform: translateX(0);
+			}
+		}
+
+		@keyframes move3 {
+			0% {
+				transform: translateX(-900px);
+			}
+			100% {
+				transform: translateX(0);
+			}
+		}
+
+		@-webkit-keyframes move2 {
+			0% {
+				transform: translateY(900px);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+
+		@keyframes move2 {
+			0% {
+				transform: translateY(900px);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h1><span class="name" style="display: inline-block;">北笙</span> <span style="display: inline-block;" class="love">我爱你</span></h1>
+		<h2>— — 脱口秀</h2>
+	</div>
+</body>
+</html>
