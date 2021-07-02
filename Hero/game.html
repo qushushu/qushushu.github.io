@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>棍子英雄</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="game.css">
+</head>
+<body>
+	<div id="gameContent">
+		<header class="gameTop">
+			<p id="score" class="center">0</p>
+			<p class="game_desc center">把手放在屏幕<br />使竿变长</p>
+		</header>
+		<div id="gameMain">
+			<ul>
+				<li id="barLeft"></li>
+				<li id="barCenter"></li>
+				<li id="barRight"></li>
+			</ul>
+			<div id="hero"></div>
+			<div id="bang"></div>
+		</div>
+		<div id="result">
+			<div class="center">
+				<p>游戏结束</p>
+			<a href="javascript:;" id="restart">重新开始</a>
+			</div>
+		</div>
+	</div>
+	<script src="game.js"></script>
+</body>
+</html>

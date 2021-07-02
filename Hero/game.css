@@ -1,0 +1,21 @@
+html,body {height: 100%;overflow: hidden;margin: 0;}
+ul,p {margin: 0;padding: 0;}
+li {list-style: none;}
+
+.center {text-align: center;}
+
+#gameContent {height: 100%;background: linear-gradient(180deg,#EB7F26,#F6D896);box-sizing: border-box;padding-top: 20px;}
+#score {font-size: 30px;color: #FFF;background: rgba(0,0,0,.4);padding: 10px 0;}
+.game_desc {margin-top: 20px;font-size: 18px;font-weight: bold;line-height: 1.6}
+
+#gameMain {position: absolute;width: 100%;height: 150px;bottom: 0;transition: .6s left;left: 0;}
+#gameMain ul {position: absolute;left: 0;bottom: 0;width: 1500px;height: 100%;}
+#gameMain li {height: 100%;width: 50px;background: #000;position: absolute;bottom: 0;}
+#barLeft {left: 0;}
+#barCenter {left: 260px;}
+#barRight {left: 460px;}
+#hero {width: 30px;height: 30px;background: red;position: absolute;left: 0;top: -30px;transition: .6s}
+#bang {position: absolute;left: 30px;bottom: 150px;width: 3px;height: 0;background: green;transition: .6s transform;transform-origin:  3px bottom;}
+
+#result {position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: rgba(0,0,0,.8);color: #FFF;font-size: 40px;display:  none;;justify-content: center;align-items: center;}
+#restart {font-size: 20px;text-align: center;color: #FFF;}
